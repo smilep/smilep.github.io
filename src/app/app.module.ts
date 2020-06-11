@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CardModule } from 'primeng/card';
 import { AboutComponent } from './components/about/about.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -15,14 +16,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
     AboutComponent,
     SocialLinksComponent,
     HeaderComponent,
-    ProjectsComponent
+    ProjectsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, CardModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
