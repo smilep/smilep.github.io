@@ -26,4 +26,4 @@ jobs:
       run: |
         sudo npm install
         sudo npm run build
-        sudo ngh --branch=master --repo=https://${{ secrets.GH_TOKEN }}@github.com/smilep/smilep.github.io.git --no-silent
+        sudo ngh --branch=master --repo=https://${{ secrets.GITHUB_TOKEN }}@github.com/smilep/smilep.github.io.git --no-silent
