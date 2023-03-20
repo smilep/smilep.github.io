@@ -1,5 +1,9 @@
 ![CI](https://github.com/smilep/smilep.github.io/workflows/CI/badge.svg?branch=dev)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 # Personal Website
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

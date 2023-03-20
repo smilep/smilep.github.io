@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - dev
+      - angular-upgrade-15
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,9 +19,6 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '16'
     - run: sudo npm install -g angular-cli-ghpages
     - run: |
         sudo npm install
